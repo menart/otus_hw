@@ -1,0 +1,19 @@
+{
+    "name": "menart/otus_hw",
+    "description": "OTUS PHP2020-04 hw3",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "menart",
+            "email": "menart@inbox.ru"
+        }
+    ],
+    "require": {
+        "php" : ">=7.0.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "menart\\otus_hw\\": "src/"
+        }
+    }
+}
